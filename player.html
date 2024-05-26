@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="player.css" />
+  </head>
+  <body>
+    <div class="videoContainer">
+      <video src="video/movie1.mp4" width="100%" id="video"></video>
+      <div class="controlBtn">
+        <button class="" id="backwardBtn">
+          <i class="fa-solid fa-backward" id="backwardIcon"></i>
+        </button>
+        <button class="playBtn" id="playBtn">
+          <i class="fa-solid fa-play" id="playIcon"></i>
+        </button>
+        <button class="" id="forwardBtn">
+          <i class="fa-solid fa-forward" id="forwardIcon"></i>
+        </button>
+      </div>
+      <input
+        type="range"
+        id="seekbar"
+        class="seekbar"
+        value="0"
+        min="0"
+        max="100"
+      />
+    </div>
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/8f547d87d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Javascript -->
+    <script src="player.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e9ed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.plan-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.plan-header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.plan-header span {
+    display: block;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.plan-body p {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.quality {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.resolution, .audio, .devices, .streams, .downloads {
+    font-size: 1em;
+    color: #666;
+}
+.premium {
+    border-top: 4px solid red;
+}
+
+.standard {
+    border-top: 4px solid #6c63ff;
+}
+
+.basic {
+    border-top: 4px solid #a4a4a4;
+}
+
+.mobile {
+    border-top: 4px solid #1c88e5;
+}
+.btn {
+    width: 50%;
+    padding: 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 20px;
+}

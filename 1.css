@@ -1,0 +1,150 @@
+
+body {
+    
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-50-Black-1024x576.jpg);
+}
+.container {
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.sign-in-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sign-in-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.btn {
+    width: 50%;
+    padding: 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.alt-sign-in {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alt-sign-in span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sign-in-code {
+    background: none;
+    color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.help-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-links .forgot-password {
+    color: gray;
+    text-decoration: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.sign-up {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.sign-up a {
+    color: white;
+    text-decoration: none;
+}
+
+.captcha-info {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+footer {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:10px;
+    text-align: center;
+    margin-top: 13px;
+    
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.language {
+    margin-top: 10px;
+}
+
+.language-btn {
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+

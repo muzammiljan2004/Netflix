@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix">
+        </header>
+        <div class="payment-container">
+            <h1>Set up your credit or debit card</h1>
+            <div class="card-logos">
+                <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+                <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
+                <img src="https://img.icons8.com/color/48/000000/amex.png" alt="American Express">
+            </div>
+            <form>
+                <div class="input-group">
+                    <input type="text" id="cardnumber" name="card-number" placeholder="Card number" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="Expiry date" required>
+                    <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="name-on-card" name="name-on-card" placeholder="Name on card" required>
+                </div>
+                <div class="price-info">
+                    PKR 1,100/month <span class="plan">Premium</span>
+                </div>
+                <p class="disclaimer">Your payments will be processed internationally. Additional bank fees may apply.</p>
+                <a class="btn" onclick="cards()" href="signin.html" style="color: white; text-decoration: none;">Start Membership</a>
+            </form>
+        </div>
+    </div>
+    <script src="payment.js"></script>
+</body>
+</html>
